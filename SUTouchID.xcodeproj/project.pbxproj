@@ -15,6 +15,7 @@
 		CFD6CD1720C7D4A10069B714 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD6CD1620C7D4A10069B714 /* main.m */; };
 		CFD6CD2120C7D4A10069B714 /* SUTouchIDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD6CD2020C7D4A10069B714 /* SUTouchIDTests.m */; };
 		CFD6CD2C20C7D4A10069B714 /* SUTouchIDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD6CD2B20C7D4A10069B714 /* SUTouchIDUITests.m */; };
+		CFD6CD3B20C7D6970069B714 /* STouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD6CD3A20C7D6970069B714 /* STouchID.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CFD6CD2720C7D4A10069B714 /* SUTouchIDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SUTouchIDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD6CD2B20C7D4A10069B714 /* SUTouchIDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SUTouchIDUITests.m; sourceTree = "<group>"; };
 		CFD6CD2D20C7D4A10069B714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFD6CD3920C7D6970069B714 /* STouchID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STouchID.h; sourceTree = "<group>"; };
+		CFD6CD3A20C7D6970069B714 /* STouchID.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STouchID.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				CFD6CD1220C7D4A10069B714 /* LaunchScreen.storyboard */,
 				CFD6CD1520C7D4A10069B714 /* Info.plist */,
 				CFD6CD1620C7D4A10069B714 /* main.m */,
+				CFD6CD3920C7D6970069B714 /* STouchID.h */,
+				CFD6CD3A20C7D6970069B714 /* STouchID.m */,
 			);
 			path = SUTouchID;
 			sourceTree = "<group>";
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFD6CD3B20C7D6970069B714 /* STouchID.m in Sources */,
 				CFD6CD0C20C7D4A00069B714 /* ViewController.m in Sources */,
 				CFD6CD1720C7D4A10069B714 /* main.m in Sources */,
 				CFD6CD0920C7D4A00069B714 /* AppDelegate.m in Sources */,
@@ -434,7 +440,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78S8WECG83;
 				INFOPLIST_FILE = SUTouchID/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +458,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78S8WECG83;
 				INFOPLIST_FILE = SUTouchID/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
